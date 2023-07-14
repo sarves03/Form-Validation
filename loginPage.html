@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
+    <style>
+      body{
+        background: linear-gradient(-135deg, #c850c0, #4158d0);
+        height: 100vh;
+      }
+      /* div{
+        background-color: #e0fbfc;
+      } */
+      table {
+        background-color: #e0fbfc;
+        width: 50%;
+        margin: auto;
+        border: 10px solid  #e0fbfc;
+        margin-top: 50px;
+        border-radius: 80px;
+      }
+      tr td ,th{
+        border: 1px dotted black;
+        min-width: 200px;
+        height: 40px;
+        overflow: auto;
+        text-align: center;
+        
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <ul class="nav justify-content-end me-3 mt-3">
+      <li class="nav-item bg-primary rounded">
+        <a class="nav-link active text-light" aria-current="page" href="./index.html">Logout</a>
+      </li>
+    </ul>
+    <h1 style="text-align: center;color: #e0fbfc;">Hi <span id="user"></span></h1>
+    <h3 style="text-align: center;color: #293241;"><i>だってばよ</i> (Believe it)</h3>
+    <div>
+      <table>
+        <thead style="color: #293241;">
+          <tr>
+            <th>Form Details</th>
+            <th>User Details</th>
+          </tr>
+  
+        </thead>
+        <tbody>
+          <tr>
+            <th>First Name</th>
+            <td><i id="1"></i></td>
+          </tr>
+          <tr>
+            <th>Last Name</th>
+            <td><i id="2"></i></td>
+          </tr>
+          <tr>
+            <th>Conatct No</th>
+            <td><i id="3"></i></td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td><i id="4"></i></td>
+          </tr>
+          <tr>
+            <th>Password</th>
+            <td><i id="5"></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="loginPage.js"></script>
+  </body>
+</html>
